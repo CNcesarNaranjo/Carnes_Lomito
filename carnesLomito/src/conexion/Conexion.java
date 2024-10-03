@@ -13,7 +13,7 @@ public class Conexion {
     //conexion local
     public static Connection conectar() {
         try {
-            Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/sistema_venta_lomito", "root", "123456");
+            Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/bd_sistema_ventas", "root", "Alvaro3213634400");
             return cn;
         } catch (SQLException e) {
             System.out.println("Error en la conexion local " + e);
